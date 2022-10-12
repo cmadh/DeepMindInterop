@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepMindInterop", "DeepMindInterop\DeepMindInterop.csproj", "{ED295BE0-80EB-4B32-ACE8-5DE0D2328201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepMindInteropTest", "DeepMindInteropTest\DeepMindInteropTest.csproj", "{0B3B3EB4-35A7-47DE-A968-798C58871B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED295BE0-80EB-4B32-ACE8-5DE0D2328201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED295BE0-80EB-4B32-ACE8-5DE0D2328201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED295BE0-80EB-4B32-ACE8-5DE0D2328201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED295BE0-80EB-4B32-ACE8-5DE0D2328201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3B3EB4-35A7-47DE-A968-798C58871B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3B3EB4-35A7-47DE-A968-798C58871B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3B3EB4-35A7-47DE-A968-798C58871B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3B3EB4-35A7-47DE-A968-798C58871B98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CD7B22F-587F-4332-8C04-45618851E2B6}
+	EndGlobalSection
+EndGlobal

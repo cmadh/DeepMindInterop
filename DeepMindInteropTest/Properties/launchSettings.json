@@ -1,0 +1,50 @@
+{
+  "profiles": {
+    "DeepReader": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "hotReloadEnabled": false,
+      "dotnetRunMessages": true,
+      "nativeDebugging": true
+    },
+    "WSL : Ubuntu-20.04 Corvin": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+		"COMPlus_EnableAlternateStackCheck":"1",
+		"DOTNET_SYSTEM_RUNTIME_CACHING_TRACING":"1",
+		"COMPlus_EnableCrashReport":"1",
+		"COMPlus_CreateDumpDiagnostics":"1",
+		"COMPlus_DbgEnableMiniDump":"1",		
+      },
+      "distributionName": "Ubuntu20.04LTS2",
+      "remoteDebugEnabled": true
+    },
+    "WSL : Ubuntu-20.04 Haron": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "distributionName": "Ubuntu-20.04",
+      "remoteDebugEnabled": true
+    },
+    "WSL : Ubuntu-18.04": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "distributionName": "Ubuntu-18.04"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/metrics",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://+:5000"
+      },
+      "httpPort": 5000,
+      "publishAllPorts": true
+    }
+  }
+}
